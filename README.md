@@ -11,12 +11,22 @@ RequestBody-
     "designation": "Doctor",
     "password": "Ayush@yadav#45",
     "gender": "Male"
-}
- 	user_name- Must be of 3 - 30 characters
-	phone_number- Must be of 10 digits
-	email_id- Only accept email with domain @exm.com
-	designation- designation must be one of the following.. admin,doctor,pharmacist,receptionist,other
+},
+
 Applied All most all possible VALIDATIONS & EXCEPTION HANDLING
+ 	a) user_name- Must be of 3 - 30 characters
+	b) phone_number- Must be of 10 digits
+	c) email_id- Only accept email with domain @exm.com
+	d) designation- designation must be one of the following.. admin,doctor,pharmacist,receptionist,other
+	e) password- Password must contain at least one digit [0-9]. " + 
+			"Password must contain at least one lowercase Latin character [a-z]. " + 
+			"Password must contain at least one uppercase Latin character [A-Z]. " + 
+			"Password must contain at least one special character like ! @ # & ( ). " + 
+			"Password must contain a length of at least 8 characters and a maximum of 20 characters.
+  	f)gender- Gender Must be either Male or Female
+
+   These Input validation are  used to detect unauthorized input and exceptions are properly handled.
+
  
 3)	Login
 GET - localhost:4000/HospitalManagement/Login
