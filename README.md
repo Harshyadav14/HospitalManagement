@@ -12,29 +12,30 @@ RequestBody-
     "password": "Ayush@yadav#45",
     "gender": "Male"
 }
- 
+ user_name- Must be of 3 - 30 characters
+phone_number- Must be of 10 digits
 Applied All most all possible VALIDATIONS & EXCEPTION HANDLING
  
-2)	Login
+3)	Login
 GET - localhost:4000/HospitalManagement/Login
  
  
-3)	View All Users
+4)	View All Users
 GET - localhost:4000/HospitalManagement/View_Users
  
 
-4)	Find User by User Id
+5)	Find User by User Id
 GET - localhost:4000/HospitalManagement/findUserBy_UserId/106
  
-5)	Find User by User Designation or Role Like:Doctor,Receptionist
+6)	Find User by User Designation or Role Like:Doctor,Receptionist
 GET- localhost:4000/HospitalManagement/findUserListBy_Designation/receptionist
  
-6)	Update User Details
+7)	Update User Details
 PUT - localhost:4000/HospitalManagement/Update_User
 
  
 
-7)	Delete User
+8)	Delete User
 DELETE - localhost:4000/HospitalManagement/DeleteUserBy_UserId/114
  
 User Table In DataBase
