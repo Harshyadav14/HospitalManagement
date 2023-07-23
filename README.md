@@ -221,7 +221,7 @@ POST – localhost:4000/HospitalManagement/MedicinePrescription/118/76-77-49/
 GET – localhost:4000/HospitalManagement/Approve_DischargeRequest/112/106
  
 			
-		Pharmacist API’s
+Pharmacist API
 
 1)	Add Medicine
 POST – localhost:4000/HospitalManagement/Add_Medicine
