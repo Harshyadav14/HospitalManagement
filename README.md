@@ -12,8 +12,10 @@ RequestBody-
     "password": "Ayush@yadav#45",
     "gender": "Male"
 }
- user_name- Must be of 3 - 30 characters
-phone_number- Must be of 10 digits
+ 	user_name- Must be of 3 - 30 characters
+	phone_number- Must be of 10 digits
+	email_id- Only accept email with domain @exm.com
+	designation- designation must be one of the following.. admin,doctor,pharmacist,receptionist,other
 Applied All most all possible VALIDATIONS & EXCEPTION HANDLING
  
 3)	Login
